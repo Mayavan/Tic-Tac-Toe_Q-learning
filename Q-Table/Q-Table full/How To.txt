@@ -1,0 +1,11 @@
+Steps to convert .py to .exe in Python 3.6
+
+1. Install Python 3.6.
+2. Install cx_Freeze, (open your command prompt and type ‘pip install cx_Freeze‘.
+3. Write a .py program named ‘my first prog.py’.
+4. Copy python file named ‘setup.py’ on the current directory of your script.
+5. On the setup.py, code this and save it.
+6. With shift pressed right click on the same directory, so you are able to open a command prompt window.
+7. In the prompt, type >> python setup.py build
+8. If your script is error free, then there will be no problem on creating application.
+9. Check the newly created folder ‘build‘. It has another folder in it. Within that folder you can find your application. Run it. Make yourself happy.
